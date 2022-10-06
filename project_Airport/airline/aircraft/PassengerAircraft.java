@@ -184,6 +184,8 @@ public abstract class PassengerAircraft extends Aircraft implements PassengerInt
 		return this.maxWeight - this.weight;
 	}
 	
+	// Plane seats setting functions
+	
 	public boolean setSeats(int economy, int business, int firstClass) {
 		if (economy + business * 3 + firstClass * 8 <= floorArea) {
 			this.firstClassSeats = firstClass;

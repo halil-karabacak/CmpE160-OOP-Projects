@@ -89,7 +89,7 @@ public abstract class Aircraft implements AircraftInterface{
 		return this.fuelCapacity;
 	}
 	
-	
+	// Aircraft specific functions are left to be implemented in Subclasses(concrete file)
 	public abstract double getFlightCost(Airport toAirport);
 	public abstract double getFuelConsumption(double distance);
 }

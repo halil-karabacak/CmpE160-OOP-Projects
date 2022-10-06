@@ -1,8 +1,6 @@
 package project.executable;
 
 import java.io.File;
-
-
 import java.io.FileNotFoundException;
 import java.io.PrintStream;
 import java.util.ArrayList;
@@ -131,7 +129,7 @@ public class Main {
 			}
 		}
 		
-		// FLIGH DECISION
+		// FLIGH DECISION, needs some serious to increase profit/ adaptability to new conditions
 		
 		int[] flightData = airline.flightDecision();
 		// 0 -> from which airport

@@ -100,7 +100,7 @@ public class Airline {
 	
 	/**
 	 * 
-	 * @param toAirport -> ending airport of the fly
+	 * @param toAirport -> destination airport of the fly
 	 * @param aircraftIndex -> which aircraft to fly to toAirport
 	 * @return If there is no error flying occurs
 	 */
@@ -448,6 +448,8 @@ public class Airline {
 		int airportFromIndexResult = 0;
 		
 		double minDistance = 100000000;
+		
+		// needs some serious update
 		
 		for (int initialIndex = 0; initialIndex < this.airports.size(); initialIndex++) {
 			for (int lastIndex = 0; lastIndex < this.airports.size(); lastIndex++) {
